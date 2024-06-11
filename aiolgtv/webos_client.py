@@ -995,7 +995,7 @@ class WebOsClient:
     async def get_media_foreground_app(self):
         """Get media player state."""
         res = await self.request(ep.GET_MEDIA_FOREGROUND_APP_INFO)
-        return res.get("foregroundAppInfo")
+        return res.get("acbs")
 
     async def subscribe_media_foreground_app(self, callback):
         """Subscribe to changes in media player state."""
