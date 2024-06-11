@@ -11,8 +11,8 @@ VERSION = "0.3.3"
 setup(
     name="aiolgtv",
     version=VERSION,
-    url="https://github.com/rale/aiolgtv",
-    download_url="https://github.com/rale/aiolgtv",
+    url="https://github.com/kuchiru/aiolgtv",
+    download_url="https://github.com/kuchiru/aiolgtv",
     author="Home Assistant Team",
     author_email="hello@home-assistant.io",
     description="Library to control webOS based LG TV devices",
